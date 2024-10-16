@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.photo-container {
+    display: inline-block;
+    border: 5px solid #e0e0e0;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #333;
+    margin-top: 20px;
+}
+
+/* Tambahkan CSS lainnya di sini */
+
+
+
+
+.skills-tools-section {
+    padding: 60px 0; /* Padding atas dan bawah */
+    background-color: #1c1c1c; /* Warna latar belakang gelap */
+    color: white; /* Warna teks putih */
+}
+
+.section-title {
+    text-align: center; /* Pusatkan judul bagian */
+    font-size: 36px; /* Ukuran font judul bagian */
+    margin-bottom: 40px; /* Margin bawah untuk jarak */
+}
+
+.skills h3, .tools h3 {
+    text-align: center; /* Pusatkan judul untuk skills dan tools */
+    font-size: 24px; /* Ukuran font judul */
+    margin-bottom: 20px; /* Margin bawah untuk jarak */
+}
+
+.soft-skills {
+    display: flex; /* Flexbox untuk tata letak horizontal */
+    justify-content: center; /* Pusatkan konten */
+}
+
+.skills-icon-box {
+    background-color: #333; /* Latar belakang untuk kotak skill */
+    border-radius: 10px; /* Sudut membulat */
+    padding: 20px; /* Padding untuk konten */
+    margin: 10px; /* Margin antar kotak */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Bayangan */
+    transition: transform 0.3s; /* Transisi saat hover */
+    display: flex; /* Flexbox untuk konten di dalam */
+    align-items: center; /* Pusatkan vertikal */
+    justify-content: center; /* Pusatkan horizontal */
+    height: 120px; /* Tinggi tetap untuk semua kotak */
+    text-align: center; /* Pusatkan teks */
+}
+
+.skills-icon-box:hover {
+    transform: translateY(-5px); /* Gerakan saat hover */
+}
+
+.tools-icons {
+    display: flex; /* Flexbox untuk tata letak ikon */
+    flex-wrap: wrap; /* Membungkus ikon di baris baru jika perlu */
+    justify-content: center; /* Pusatkan ikon */
+}
+
+.tool-icon-box {
+    margin: 15px; /* Margin antar ikon */
+    transition: transform 0.3s, filter 0.3s; /* Transisi saat hover */
+}
+
+.tool-icon-box img {
+    max-width: 80px; /* Ukuran maksimum untuk ikon */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Bayangan dasar */
+}
+
+.tool-icon-box:hover im
+
+
+.skills-icon-box {
+    background-color: #333; /* Latar belakang untuk kotak skill */
+    border-radius: 10px; /* Sudut membulat */
+    padding: 20px; /* Padding untuk konten */
+    margin: 10px; /* Margin antar kotak */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Bayangan */
+    transition: transform 0.3s; /* Transisi saat hover */
+}
+
+.skills-icon-box:hover {
+    transform: translateY(-5px); /* Gerakan saat hover */
+}
+
+.tools-icons {
+    display: flex; /* Flexbox untuk tata letak ikon */
+    flex-wrap: wrap; /* Membungkus ikon di baris baru jika perlu */
+    justify-content: center; /* Pusatkan ikon */
+}
+
+.tool-icon-box {
+    margin: 15px; /* Margin antar ikon */
+    transition: transform 0.3s, filter 0.3s; /* Transisi saat hover */
+}
+
+.tool-icon-box img {
+    max-width: 80px; /* Ukuran maksimum untuk ikon */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Bayangan dasar */
+}
+
+.tool-icon-box:hover img {
+    transform: scale(1.1); /* Besarkan ikon saat hover */
+    filter: brightness(1.1); /* Terang saat hover */
+}
+
